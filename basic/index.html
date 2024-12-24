@@ -18,36 +18,56 @@
     <p>This is a paragraph element</p>
 
     <!-- List tags varies in ordered and unordered list -->
-    <li>
-      <ul>
-        Iron Man
-      </ul>
-      <ul>
-        Dr Strange
-      </ul>
-      <ul>
-        Natasha Romanoff
-      </ul>
-    </li>
+    <ul>
+      <li>Iron Man</li>
+      <li>Dr Strange</li>
+      <li>Natasha Romanoff</li>
+    </ul>
 
     <p>Another List</p>
 
-    <li>
-      <ol>
-        Steve Rogers
-      </ol>
-      <ol>
-        Bucky Barnes
-      </ol>
-      <ol>
-        Wong
-      </ol>
-    </li>
+    <ol>
+      <li>Steve Rogers</li>
+      <li>Bucky Barnes</li>
+      <li>Wong</li>
+    </ol>
 
     <a href="www.marvel.com">Its a link</a>
     <img
       src="https://seeklogo.com/images/A/avengers-logo-5B0A68AFB3-seeklogo.com.png"
       alt="avengers logo"
+      style="display: block; margin: 10px"
     />
+    <!-- after setting the display block in a element it forces a line break 
+     and ensure no other inline element can sit beside it -->
+
+    <p><strong>Basic Form</strong></p>
+    <form action="/submit" method="POST">
+      <label for="name">Name: </label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email: ></label>
+      <input type="email" id="email" name="email" required />
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Semantic Elements - This improves accessibility and SEO Of page -->
+    <br />
+
+    <header>
+      <h1>Marvel Heroes League</h1>
+    </header>
+    <section>
+      <h2>Protectors of Earth</h2>
+      <p>They are earths mightiest heroes</p>
+    </section>
+    <footer>
+      <p>@2024 Marvel Entertainment</p>
+    </footer>
+    <!-- This provides meaning and purpose about their content to both
+       developers and Browsers -->
+    <!-- Crawlers often understands the hierarchy and structure of page 
+        improving ranings -->
   </body>
 </html>
