@@ -15,24 +15,49 @@ div {
   background-color: rgb(105, 201, 61);
 } */
 
-h1{
-    color: red;
+h1 {
+  color: red;
 }
 
-#second{
-    background-color: blue;
-    color: rgb(0, 243, 243);
+#second {
+  background-color: blue;
+  color: rgb(0, 243, 243);
 }
 
-.a{
-    background-color: royalblue;
+.a {
+  background-color: royalblue;
 }
 
-#box{
-    height: 200px;
-    width: 200px;
-    background-color: rgb(255, 19, 19);
-    margin-left: 100px;
-    margin-top: 50px;
-    padding-top: 60px;
-  }
+#box {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(255, 19, 19);
+  margin-left: 100px;
+  margin-top: 50px;
+  padding-top: 60px;
+}
+
+#parent {
+  height: 200px;
+  width: 400px;
+  background-color: crimson;
+}
+
+#child {
+  height: 50%;
+  width: 50%;
+  background-color: aqua;
+}
+
+button {
+  margin: 40px;
+  font-size: 20px;
+  /* padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px; */
+  padding: 10px 20px 10px 20px;
+  background-color: aqua;
+  color: rgb(87, 58, 58);
+  border: 2px;
+}
