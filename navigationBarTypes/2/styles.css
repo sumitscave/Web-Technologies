@@ -20,12 +20,13 @@ button {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 30px 30px;
 }
 
 .logo {
+    margin-right: auto;
     cursor: pointer;
 }
 
@@ -47,6 +48,7 @@ header {
 }
 
 button{
+    margin-left: 20px;
     padding: 9px 25px;
     background-color: rgba(0, 135, 169, 1);
     border: none;
